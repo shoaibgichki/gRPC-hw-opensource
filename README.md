@@ -2,25 +2,6 @@
 
 Bu proje, bir üniversite kütüphanesi için gRPC tabanlı bir servis sistemidir. Proje kitap, öğrenci ve ödünç alma işlemlerini yönetmek için üç ana servis içermektedir.
 
-## 🏗️ Proje Yapısı
-
-```
-/
-├── university.proto             # Protobuf tanımları
-├── README.md                   # Bu dosya
-├── grpcurl-tests.md            # Test dokümantasyonu
-├── src/
-│   ├── server/
-│   │   ├── main.go             # Go server implementasyonu
-│   │   ├── handlers/           # Servis handler'ları
-│   │   └── models/             # Data modelleri
-│   └── client/
-│       └── main.go             # Go client implementasyonu
-├── go.mod                      # Go modül dosyası
-├── go.sum                      # Go dependencies
-└── DELIVERY.md                 # Teslimat dosyası
-```
-
 ## 🚀 Kurulum ve Çalıştırma
 
 ### Gereksinimler
